@@ -1,0 +1,74 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 20px;
+}
+
+.menu{
+	border:none;
+	border:0px;
+	margin:0px auto;
+    text-align: center;
+	padding:0px;
+	font: 67.5%;
+	font-size:14px;
+	font-weight:bold;
+}
+
+.menu ul{
+    background:#333333;
+	height:55px;
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+
+.menu li{
+    display: inline-block; 
+    padding:0px;
+}
+
+.menu li a{
+    background:#333333 bottom right no-repeat;
+	color:#cccccc;
+	display:block;
+	font-weight:normal;
+	line-height:55px;
+	margin:0px;
+	padding:0px 25px;
+	text-align:center;
+	text-decoration:none;
+}
+
+.menu li a:hover, .menu ul li:hover a{
+	background: #2580a2; 
+	color:#FFFFFF;
+	text-decoration:none;
+}
+
+h2,.formulario{
+    text-align: center;
+    margin-top: 20px; /* Puedes ajustar este valor según sea necesario */
+}
+
+table {
+    width: 60%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border: 1px solid #ddd;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+th,tr {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #f5f5f5;
+}
